@@ -18,8 +18,8 @@ public class GeekService {
 		return dao.findById(id);
 	}
 	
-	public Geek cree(Geek unGeek) {
-		dao.persist(unGeek);
-		return unGeek;
+	public Geek cree(Geek nouveauGeek) {
+		dao.persist(nouveauGeek);
+		return nouveauGeek;
 	}
 }

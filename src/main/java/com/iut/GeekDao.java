@@ -24,8 +24,8 @@ public class GeekDao {
 		return entityManager.find(Geek.class,id);
 	}
 
-	public void persist(Geek spectacle) {
-		entityManager.persist(spectacle);
+	public void persist(Geek nouveauGeek) {
+		entityManager.persist(nouveauGeek);
 		
 	}
 }

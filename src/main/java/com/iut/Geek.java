@@ -19,6 +19,10 @@ public class Geek implements Serializable {
 	
 	private String nom;
 	private String prenom;
+	private String adresseMail;
+	private String sexe;
+	private String centresInterets;
+	private String avatar;
 	
 	private static final long serialVersionUID = 1L;
 
@@ -48,5 +52,37 @@ public class Geek implements Serializable {
 
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
+	}
+
+	public String getAdresseMail() {
+		return adresseMail;
+	}
+
+	public void setAdresseMail(String adresseMail) {
+		this.adresseMail = adresseMail;
+	}
+
+	public String getSexe() {
+		return sexe;
+	}
+
+	public void setSexe(String sexe) {
+		this.sexe = sexe;
+	}
+
+	public String getCentresInterets() {
+		return centresInterets;
+	}
+
+	public void setCentresInterets(String centresInterets) {
+		this.centresInterets = centresInterets;
+	}
+
+	public String getAvatar() {
+		return avatar;
+	}
+
+	public void setAvatar(String avatar) {
+		this.avatar = avatar;
 	}
 }

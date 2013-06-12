@@ -13,9 +13,13 @@
 					<td>ID : ${leGeek.id}.</td>
 					<td>NOM : ${leGeek.nom}.</td>
 					<td>Prenom : ${leGeek.prenom}.</td>
+					<td>Mail : ${leGeek.adresseMail}.</td>
+					<td>Sexe : ${leGeek.sexe}.</td>
+					<td>Centres d'intérêts : ${leGeek.centresInterets}.</td>
+					<td><img width="80" height="80" src="${leGeek.avatar}" />
 				</tr>
 				<tr>
-					<td>Revenir au menu d'avant <a href="./">ici</a></td>
+					<td colspan="3">Revenir au menu d'avant <a href="./">ici</a></td>
 				</tr>
 		</table>
 	</body>

@@ -9,7 +9,7 @@
 	<body>
 		<h1>Veuillez vous logger</h1>
 		<table>
-				<tr><td>Le log est <a href="./Profil/">ici</a></a></td></tr>
+				<tr><td>Le log est <a href="./Profil/">ici</a></td></tr>
 		</table>
 	</body>
 </html>
