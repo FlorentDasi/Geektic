@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
 	<wb-module deploy-name="Geektic">
 		<property name="context-root" value="Geektic"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/scr/main/java"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/scr/test/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/scr/main/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/scr/test/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/scr/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/DASI/JEE/gradle/caches/artifacts-23/filestore/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jar/2ab6236535e085d86f37fd97ddfdd35c88c1a419/jboss-transaction-api_1.1_spec-1.0.0.Final.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -27,6 +35,9 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/DASI/JEE/gradle/caches/artifacts-23/filestore/org.glassfish.web/javax.servlet.jsp.jstl/1.2.1/jar/7f687140e9d264ee00eaa924714adf9a82cc18dc/javax.servlet.jsp.jstl-1.2.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/DASI/JEE/gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-mapper-asl/1.9.12/jar/8b290aae44213e2f6da00c07af59b0d442068f4d/jackson-mapper-asl-1.9.12.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/DASI/JEE/gradle/caches/artifacts-23/filestore/org.springframework/spring-core/3.2.2.RELEASE/jar/302bd922c30a4d4bfb15b76a5939117b425eb480/spring-core-3.2.2.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -43,6 +54,9 @@
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/DASI/JEE/gradle/caches/artifacts-23/filestore/antlr/antlr/2.7.7/jar/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/DASI/JEE/gradle/caches/artifacts-23/filestore/org.codehaus.jackson/jackson-core-asl/1.9.12/jar/ecfc6f73a841c4c3c653b59651a3f9d5f1286469/jackson-core-asl-1.9.12.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/DASI/JEE/gradle/caches/artifacts-23/filestore/org.springframework/spring-aop/3.2.2.RELEASE/jar/543a5442a0344af3885d4b3e457cfcab4183cec9/spring-aop-3.2.2.RELEASE.jar">
