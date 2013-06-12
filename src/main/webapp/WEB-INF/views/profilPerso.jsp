@@ -4,14 +4,19 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title>Liste des profils</title>
+		<title>Geek profils</title>
 	</head>
 	<body>
-		<h1>Liste des geeks de notre site</h1>
+		<h1>Geek profil</h1>
 		<table>
-			<c:forEach var="geek" items="${listeGeek}">
-				<tr><td>ID : ${geek.id}.</td><td>NOM : ${geek.nom}.</td><td>Prenom : ${geek.prenom}.</td></tr>
-			</c:forEach>
+				<tr>
+					<td>ID : ${leGeek.id}.</td>
+					<td>NOM : ${leGeek.nom}.</td>
+					<td>Prenom : ${leGeek.prenom}.</td>
+				</tr>
+				<tr>
+					<td>Revenir au menu d'avant <a href="./">ici</a></td>
+				</tr>
 		</table>
 	</body>
 </html>
