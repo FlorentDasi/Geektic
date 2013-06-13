@@ -15,7 +15,6 @@ public class GeekController {
 	
 	@RequestMapping(method = RequestMethod.GET)
     public String accueil(ModelMap model) {
-		//model.addAttribute("listeGeek",geekSrv.listage());
 		return("index");
     }
 	

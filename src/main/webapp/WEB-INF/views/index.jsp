@@ -8,6 +8,19 @@
 	</head>
 	<body>
 		<h1>Veuillez vous logger</h1>
+		<FORM action="./Profil/" method="get">
+		    <P>
+		    <LABEL for="prenom">Prénom : </LABEL>
+		              <INPUT type="text" id="prenom"><BR>
+		    <LABEL for="nom">Nom : </LABEL>
+		              <INPUT type="text" id="nom"><BR>
+		    <LABEL for="mdp">Mot de passe : </LABEL>
+		              <INPUT type="text" id="mdp"><BR>
+		    <INPUT type="radio" name="sex" value="Homme"> Homme<BR>
+		    <INPUT type="radio" name="sex" value="Femme"> Femme<BR>
+		    <INPUT type="submit" value="Send"> <INPUT type="reset">
+		    </P>
+		 </FORM>
 		<table>
 				<tr><td>Le log est <a href="./Profil/">ici</a></td></tr>
 		</table>
