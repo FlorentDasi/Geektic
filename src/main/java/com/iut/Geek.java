@@ -23,6 +23,7 @@ public class Geek implements Serializable {
 	private String sexe;
 	private String centresInterets;
 	private String avatar;
+	private String motDePasse;
 	
 	private static final long serialVersionUID = 1L;
 
@@ -84,5 +85,13 @@ public class Geek implements Serializable {
 
 	public void setAvatar(String avatar) {
 		this.avatar = avatar;
+	}
+
+	public String getMotDePasse() {
+		return motDePasse;
+	}
+
+	public void setMotDePasse(String motDePasse) {
+		this.motDePasse = motDePasse;
 	}
 }

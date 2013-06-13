@@ -14,8 +14,12 @@ public class GeekService {
 		return dao.findAll();
 	}
 	
-	public Geek findById(int id) {
-		return dao.findById(id);
+	public Geek trouverID(int id) {
+		return dao.trouverID(id);
+	}
+	
+	public Geek testLog(String nom, String prenom, String motDePasse) {
+		return dao.testLog(nom, prenom, motDePasse);
 	}
 	
 	public Geek cree(Geek nouveauGeek) {

@@ -20,8 +20,13 @@ public class GeekDao {
 		return entityManager.createQuery(jpql, Geek.class).getResultList();		
 	}
 
-	public Geek findById(int id) {
+	public Geek trouverID(int id) {
 		return entityManager.find(Geek.class,id);
+	}
+	
+	public Geek testLog(String nom, String prenom, String motDePasse) {
+		String jpql = "select geek from Geek geek where nom='"+nom+"' and prenom='"+prenom+"' and motDePasse='"+motDePasse+"' order by geek.nom";
+		return entityManager.createQuery(jpql, Geek.class).getSingleResult();
 	}
 
 	public void persist(Geek nouveauGeek) {

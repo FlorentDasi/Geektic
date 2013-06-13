@@ -8,9 +8,11 @@
 	</head>
 	<body>
 		<h1>Liste des geeks de notre site</h1>
+		<INPUT type="radio" name="sex" value="Homme" onClick="var femmes = document.getElementsByClassName('Femme'); for(var i = 0; i != femmes.length; ++i){femmes[i].style.display = 'none';} var hommes = document.getElementsByClassName('Homme'); for(var i = 0; i != hommes.length; ++i){hommes[i].style.display = '';}"> Homme<BR>
+		<INPUT type="radio" name="sex" value="Femme" onClick="var hommes = document.getElementsByClassName('Homme'); for(var i = 0; i != hommes.length; ++i){hommes[i].style.display = 'none';} var femmes = document.getElementsByClassName('Femme'); for(var i = 0; i != femmes.length; ++i){femmes[i].style.display = '';}"> Femme<BR>
 		<table>
 			<c:forEach var="geek" items="${listeGeek}">
-				<tr><td>ID : ${geek.id}.</td><td>NOM : <a href="./${geek.id}">${geek.nom}.</a></td><td>Prenom : ${geek.prenom}.</td></tr>
+				<tr class="${geek.sexe}"><td><img width="80" height="80" src="${geek.avatar}" /></td><td>NOM : <a href="./${geek.id}">${geek.nom}</a></td><td>Prenom : ${geek.prenom}</td></tr>
 			</c:forEach>
 		</table>
 	</body>

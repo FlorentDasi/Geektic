@@ -8,16 +8,14 @@
 	</head>
 	<body>
 		<h1>Veuillez vous logger</h1>
-		<FORM action="./Profil/" method="get">
+		<FORM action="./Profil/" method="post">
 		    <P>
 		    <LABEL for="prenom">Prénom : </LABEL>
-		              <INPUT type="text" id="prenom"><BR>
+		              <INPUT type="text" name="prenom"><BR>
 		    <LABEL for="nom">Nom : </LABEL>
-		              <INPUT type="text" id="nom"><BR>
+		              <INPUT type="text" name="nom"><BR>
 		    <LABEL for="mdp">Mot de passe : </LABEL>
-		              <INPUT type="text" id="mdp"><BR>
-		    <INPUT type="radio" name="sex" value="Homme"> Homme<BR>
-		    <INPUT type="radio" name="sex" value="Femme"> Femme<BR>
+		              <INPUT type="password" name="mdp"><BR>
 		    <INPUT type="submit" value="Send"> <INPUT type="reset">
 		    </P>
 		 </FORM>
