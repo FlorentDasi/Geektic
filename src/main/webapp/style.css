@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url("background.jpg");
+}
+a{
+	text-decoration: none;
+}
+
+#contente{
+	border: 1px solid gray;
+	width: 350px;
+	text-align: center;
+	background-color: gray;
+	margin: auto;
+	margin-top: 200px;
+}
+
+#content{
+	border: 1px solid gray;
+	width: 350px;
+	text-align: center;
+	background-color: gray;
+	margin: auto;
+}
+
+#slogan{
+	margin: auto;
+	margin-top: 50px;
+	background-color: red;
+	color: yellow;
+	width: 550px;
+	font-size: xx-large;
+	font-family: fantasy;
+	font-weight: bold;
+	text-decoration: blink;
+}
+
+.centrer{
+	margin: auto;
+}
